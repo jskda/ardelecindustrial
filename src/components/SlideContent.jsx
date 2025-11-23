@@ -11,6 +11,7 @@ export default function SlideContent({ active, image, lines }) {
       setTimeout(() => setShow2(true), 250);
       setTimeout(() => setShow3(true), 400);
     } else {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShow1(false);
       setShow2(false);
       setShow3(false);
@@ -45,7 +46,7 @@ export default function SlideContent({ active, image, lines }) {
             style={{ width: "900px" }}
         >
           <div className="bg-neutral-800 skew-x-[-45deg] py-8 px-15 absolute left-15 top-0" style={{ right: "-200px" }}>
-            <span className="block skew-x-[45deg] text-white font-bold text-[28px] -mt-2 leading-none whitespace-nowrap">
+            <span className="block skew-x-45 text-white font-bold text-[28px] -mt-2 leading-none whitespace-nowrap">
               {lines[2]}
             </span>
           </div>

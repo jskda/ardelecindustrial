@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
+// eslint-disable-next-line no-unused-vars
 import { useTrail, animated } from "react-spring";
 import logo from '../assets/logo_horizontal_red.svg';
 
@@ -42,7 +43,6 @@ export default function MainMenu() {
     timeoutRef.current = setTimeout(() => setOpenIndex(null), 200);
   };
 
-  // Разделяем анимации меню и соц. иконок, чтобы избежать дублирования
   const trail = useTrail(menuItems.length + socialUrls.length, {
     from: { opacity: 0, transform: 'translateX(20px)' },
     to: { opacity: 1, transform: 'translateX(0px)' },
@@ -51,11 +51,12 @@ export default function MainMenu() {
   });
 
   return (
-    <animated.nav className="shadow-md fixed top-0 left-0 right-0 z-50 bg-white/80">
-      <div className="container mx-auto flex items-center justify-between p-4">
+    <animated.nav className="shadow-md fixed top-0 left-0 right-0 z-50 bg-white/90">
+      <div className="container mx-auto px-4 flex items-center justify-between p-4">
         <a href="/" className="flex items-center">
           <img src={logo} alt="ARDELEC logo" className="h-10 w-auto" />
         </a>
+        
         <div className="flex items-center ml-6 w-full justify-end space-x-6">
           {menuItems.map((menuItem, index) => (
             <animated.div

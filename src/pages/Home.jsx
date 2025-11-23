@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import Loader from '../components/Loader'
-import Menu from '../components/MainMenu'
 import HeroSlider from '../components/HeroSlider'
 import Services from '../components/Services'
 import About from '../components/About'
@@ -27,12 +26,13 @@ useEffect(() => {
     loadedCount += 1;
     if (loadedCount === images.length) setLoading(false);
   }
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 
   if (loading) return <Loader />;
   return (
     <>
-      <Menu />
+      
       <HeroSlider />
       <About />
       <div className="container mx-auto px-4">

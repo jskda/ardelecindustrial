@@ -38,7 +38,7 @@ export default function HeroSlider() {
       pagination={{ clickable: true }}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
       loop
-      className="h-[650px]"
+      className="h-[750px]"
       onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
     >
       {slides.map((slide, idx) => (
