@@ -5,7 +5,8 @@ import consultingIcon from '../assets/alt3.png'
 
 export default function Services() {
   return (
-    <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-12">
+    <div className="container mx-auto px-2 md:px-2 xl:px-2">
+    <section className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-2 py-12">
       <ServiceBlock
         icon={powerIcon}
         title="Special Power Supply"
@@ -25,5 +26,6 @@ export default function Services() {
         link="/engineering-consulting-services"
       />
     </section>
+    </div>
   )
 }
