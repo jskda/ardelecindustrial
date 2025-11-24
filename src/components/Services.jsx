@@ -1,6 +1,8 @@
 import powerIcon from '../assets/supply.svg'
 import softwareIcon from '../assets/development.svg'
-import consultingIcon from '../assets/engineering.svg'
+import industrialIcon from '../assets/engineering_industrial.svg'
+import generationIcon from '../assets/power_generation.svg'
+import energyStorage from '../assets/energy_store.svg'
 
 export default function Services() {
   return (
@@ -37,8 +39,40 @@ export default function Services() {
     </div>
   </div>
 
+  <div className="flex items-start space-x-4">
+    <img src={energyStorage} alt="Software Icon" className="w-12 h-12 shrink-0" />
+    <div>
+      <h3 className="text-gray-700 text-xl font-semibold mb-1">Industrial Energy Storage</h3>
+      <p className="text-gray-700">
+        ARDELEC delivers turn-key commercial & industrial energy storage solutions (LFP BESS) for peak shaving, demand response, PV integration, microgrids and backup power. Containerized or cabinet systems include PCS, MV equipment, EMS, HVAC and fire safety, fully engineered, commissioned and maintained to IEC/IEEE/UL standards.
+      </p>
+      <a href="/activities/SoftwareDevelopment" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+        View More
+        <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div className="flex items-start space-x-4">
+    <img src={generationIcon} alt="Software Icon" className="w-12 h-12 shrink-0" />
+    <div>
+      <h3 className="text-gray-700 text-xl font-semibold mb-1">Power Generation</h3>
+      <p className="text-gray-700">
+        ARDELEC offers full-cycle power generation solutions for thermal, gas-turbine, hydro, renewable and captive plants — engineering (studies, grid compliance, digital substations IEC 61850), supply of evacuation systems, diagnostics, testing, commissioning, retrofits, training and lifecycle support — all to IEC/IEEE/GOST standards.
+      </p>
+      <a href="/activities/SoftwareDevelopment" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+        View More
+        <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
   <div className="md:col-span-2 flex items-start space-x-4">
-    <img src={consultingIcon} alt="Consulting Icon" className="w-12 h-12 shrink-0" />
+    <img src={industrialIcon} alt="Consulting Icon" className="w-12 h-12 shrink-0" />
     <div>
       <h3 className="text-gray-700 text-xl font-semibold mb-1">Engineering & Consulting</h3>
       <div className="md:col-span-2 flex items-start space-x-4">
