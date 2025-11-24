@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="w-full bg-gray-100 py-16">
+    <section className="w-full bg-[#f5f5f5] py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-xl text-gray-700 font-semibold mb-4">ARDELEC's Approach to Engineering, Design, and Project Management</h2>
         <div className="text-sm text-gray-500">

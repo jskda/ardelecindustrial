@@ -37,7 +37,6 @@ export default function Services() {
     </div>
   </div>
 
-  {/* Третий блок занимает всю ширину под первыми двумя */}
   <div className="md:col-span-2 flex items-start space-x-4">
     <img src={consultingIcon} alt="Consulting Icon" className="w-12 h-12 shrink-0" />
     <div>

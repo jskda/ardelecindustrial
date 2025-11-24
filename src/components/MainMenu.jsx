@@ -54,7 +54,7 @@ export default function MainMenu() {
     <animated.nav className="shadow-md fixed top-0 left-0 right-0 z-50 bg-white/90">
       <div className="container mx-auto px-4 flex items-center justify-between p-4">
         <a href="/" className="flex items-center">
-          <img src={logo} alt="ARDELEC logo" className="h-10 w-auto" />
+          <img src={logo} alt="ARDELEC logotype" className="h-10 w-auto" />
         </a>
         
         <div className="flex items-center ml-6 w-full justify-end space-x-6">
@@ -122,17 +122,19 @@ export default function MainMenu() {
               )}
             </animated.div>
           ))}
+          <div className="flex gap-2 ml-6">
           {socialUrls.map((url, idx) => (
             <animated.div key={url} style={trail[menuItems.length + idx]}>
               <SocialIcon
                 url={url}
                 fgColor="#4B5563"
                 bgColor="transparent"
-                style={{ height: 32, width: 32 }}
+                style={{ height: 30, width: 30 }}
                 title={`Social Icon ${idx}`}
               />
             </animated.div>
           ))}
+          </div>
         </div>
       </div>
     </animated.nav>
