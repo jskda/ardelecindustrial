@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import logoHorizontal from '../assets/logo_horizontal_red.svg';
 
 export default function Footer() {
@@ -7,31 +6,29 @@ export default function Footer() {
       <div className="container mx-auto py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
-          {/* Левая колонка — твой код + адаптивное выравнивание */}
           <div className="
             flex 
-            justify-center           /* на мобильных — по центру */
-            md:justify-end            /* на десктопе — к правому краю */
+            justify-center
+            md:justify-end
           ">
             <div className="
               text-center 
-              md:text-right             /* на десктопе текст тоже по правому краю */
+              md:text-right
             ">
               <img 
                 src={logoHorizontal} 
                 alt="ARDELEC" 
                 className="h-12 mb-4 mx-auto md:mx-0" 
               />
-              <p className="text-gray-500 text-md">
+              <p className="text-gray-500 text-md text-center">
                 considering the energy
               </p>
             </div>
           </div>
 
-          {/* Правая колонка — твой код + адаптивное выравнивание */}
           <div className="
-            text-center                  /* на мобильных — по центру */
-            md:text-left                 /* на десктопе — по левому краю */
+            text-center
+            md:text-left
             space-y-5 text-sm
           ">
             <h3 className="font-semibold text-gray-700 text-base mb-4">Contact Us</h3>
