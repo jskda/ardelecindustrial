@@ -16,7 +16,7 @@ export default function Contact() {
                 Corporate Headquarters
               </h2>
               <p className="text-gray-600 font-semibold">
-              Ardelic Industrial Solutions Ltd
+              Ardelec Industrial Solutions Ltd
               </p>
               <p className="text-gray-600 mb-4">
                 128, City Road, London, EC1V 2NX, UK
