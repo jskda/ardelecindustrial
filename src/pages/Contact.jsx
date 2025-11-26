@@ -15,10 +15,13 @@ export default function Contact() {
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">
                 Corporate Headquarters
               </h2>
+              <p className="text-gray-600 font-semibold">
+              Ardelic Industrial Solutions Ltd
+              </p>
               <p className="text-gray-600 mb-4">
                 128, City Road, London, EC1V 2NX, UK
               </p>
-              <p className="text-gray-600 mb-2">
+              <p className="text-gray-600 mb-4">
                 Tel: +44 203 693 3963<br />
                 info@ardelecindustrial.com
               </p>
@@ -41,10 +44,13 @@ export default function Contact() {
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">
                 Operations in Türkiye
               </h2>
+              <p className="text-gray-600 font-semibold">
+              Meta FX Global Software and Trade Ltd
+              </p>
               <p className="text-gray-600 mb-4">
                 Esentepe Mah., Keskin Kalem Sokak, Arya Plaza No:17, İç Kapı No:2, Şişli, Istanbul
               </p>
-              <p className="text-gray-600 mb-2">
+              <p className="text-gray-600 mb-4">
                 Tel: +90 535 379 5318<br />
                 info@ardelecindustrial.com
               </p>

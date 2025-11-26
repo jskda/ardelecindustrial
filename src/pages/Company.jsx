@@ -44,11 +44,6 @@ export default function Company() {
 
             {/* Секция #1 */}
             <section id="who" className="space-y-6">
-              <img 
-                src="/img/generic-8s-wide.jpg" 
-                className="rounded-lg mb-4"
-                alt=""
-              />
               <img src= {aboutImage} class="img-fluid mb-4" alt="Engineer Man" />
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">Who we are</h2>
               <p className="font-semibold text-gray-600 leading-relaxed">
