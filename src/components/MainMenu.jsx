@@ -52,7 +52,7 @@ export default function MainMenu() {
 
   return (
     <animated.nav className="shadow-md fixed top-0 left-0 right-0 z-50 bg-white/90">
-      <div className="container mx-auto px-4 flex items-center justify-between p-4">
+      <div className="container max-w-[1320px] mx-auto px-4 flex items-center justify-between p-4">
         <a href="/" className="flex items-center">
           <img src={logo} alt="ARDELEC logotype" className="h-10 w-auto" />
         </a>

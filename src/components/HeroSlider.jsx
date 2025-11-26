@@ -23,7 +23,7 @@ const slides = [
   },
   {
     image: img_3,
-    lines: ["POWER", "GENERATION", "Software Development & Digital Control Systems"],
+    lines: ["POWER", "GENERATION", "Engineering-Driven Power Systems"],
   },
 ];
 

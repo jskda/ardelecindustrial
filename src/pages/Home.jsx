@@ -32,7 +32,6 @@ useEffect(() => {
   if (loading) return <Loader />;
   return (
     <>
-      
       <HeroSlider />
       <About />
       <div className="container mx-auto px-4">

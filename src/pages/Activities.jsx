@@ -1,11 +1,18 @@
 import { Outlet } from 'react-router-dom';
+import Title from '../components/Title';
 
 export default function Activities() {
   return (
-    <div>
-      <h1>Activities</h1>
-      {/* Здесь отобразится содержимое дочерних маршрутов */}
-      <Outlet />
-    </div>
+    <>
+      <Title 
+        title="Activities"
+        image="activities.jpg" />
+
+      <section className="w-full py-16">
+        <div className="container max-w-[1320px] mx-auto px-4">
+        <Outlet />
+        </div>
+    </section>
+    </>
   );
 }

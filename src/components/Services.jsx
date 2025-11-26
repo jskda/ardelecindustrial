@@ -6,7 +6,7 @@ import energyStorage from '../assets/energy_store.svg'
 
 export default function Services() {
   return (
-  <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div className="container max-w-[1320px] mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
   <div className="flex items-start space-x-4">
     <img src={powerIcon} alt="Power Icon" className="w-12 h-12 shrink-0" />
     <div>
