@@ -8,7 +8,7 @@ export default function Activities() {
       <Title 
         title="Activities"
         image={activitiesImage} />
-      <section className= "container max-w-[1320px] mx-auto">
+      <section className= "container max-w-[1320px] mx-auto px-6 py-12">
         <div>
         <Outlet />
         </div>

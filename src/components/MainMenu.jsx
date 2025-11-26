@@ -1,5 +1,4 @@
-// Updated MainMenu.jsx
-// Submenu items now highlight in red when active
+/* eslint-disable no-unused-vars */
 
 import { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
@@ -150,7 +149,7 @@ export default function MainMenu() {
 
       <animated.div
         style={mobileMenuSpring}
-        className="fixed top-0 right-0 h-full w-72 bg-white shadow-xl z-[60] p-6 flex flex-col lg:hidden"
+        className="fixed top-0 right-0 h-full w-72 bg-white shadow-xl z-60 p-6 flex flex-col lg:hidden"
       >
         {menuItems.map((item, idx) => (
           <div key={item.label} className="mb-4">

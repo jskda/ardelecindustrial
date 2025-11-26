@@ -12,7 +12,7 @@ export default function Title({ title, image }) {
             className="
               absolute 
               top-6 
-              left-200 
+              left-250 
               w-[120%]
               bg-white 
               skew-x-[-45deg]

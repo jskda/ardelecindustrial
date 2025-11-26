@@ -32,7 +32,7 @@ export default function Services() {
     <div>
       <h3 className="text-gray-700 text-xl font-semibold mb-1">Software Development & Digital Control Systems</h3>
       <p className="text-gray-700">
-        The digital controls systems, entirely developed by ARDELEC, grants the highest level of reliability, safety and performance. ARDELEC combine deep domain expertise with connectivity and software innovation to empower real-time, data-driven decisions for safer, smarter operations that maximize resource efficiency.
+        The digital controls systems, entirely developed by Ardelec, grants the highest level of reliability, safety and performance. Ardelec combine deep domain expertise with connectivity and software innovation to empower real-time, data-driven decisions for safer, smarter operations that maximize resource efficiency.
       </p>
       <Link 
         to="/activities/SoftwareDevelopment"
@@ -51,7 +51,7 @@ export default function Services() {
     <div>
       <h3 className="text-gray-700 text-xl font-semibold mb-1">Industrial Energy Storage</h3>
       <p className="text-gray-700">
-        ARDELEC delivers turn-key commercial & industrial energy storage solutions (LFP BESS) for peak shaving, demand response, PV integration, microgrids and backup power. Containerized or cabinet systems include PCS, MV equipment, EMS, HVAC and fire safety, fully engineered, commissioned and maintained to IEC/IEEE/UL standards.
+        Ardelec delivers turn-key commercial & industrial energy storage solutions (LFP BESS) for peak shaving, demand response, PV integration, microgrids and backup power. Containerized or cabinet systems include PCS, MV equipment, EMS, HVAC and fire safety, fully engineered, commissioned and maintained to IEC/IEEE/UL standards.
       </p>
       <Link 
         to="/activities/EnergyStorage"
@@ -70,7 +70,7 @@ export default function Services() {
     <div>
       <h3 className="text-gray-700 text-xl font-semibold mb-1">Power Generation</h3>
       <p className="text-gray-700">
-        ARDELEC offers full-cycle power generation solutions for thermal, gas-turbine, hydro, renewable and captive plants — engineering (studies, grid compliance, digital substations IEC 61850), supply of evacuation systems, diagnostics, testing, commissioning, retrofits, training and lifecycle support — all to IEC/IEEE/GOST standards.
+        Ardelec offers full-cycle power generation solutions for thermal, gas-turbine, hydro, renewable and captive plants — engineering (studies, grid compliance, digital substations IEC 61850), supply of evacuation systems, diagnostics, testing, commissioning, retrofits, training and lifecycle support — all to IEC/IEEE/GOST standards.
       </p>
       <Link 
         to="/activities/PowerGeneration"
