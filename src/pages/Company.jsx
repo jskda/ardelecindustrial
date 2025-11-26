@@ -1,4 +1,3 @@
-import { Outlet } from 'react-router-dom';
 import Title from '../components/Title';
 import companyImage from '../assets/company.jpg'
 import aboutImage from '../assets/about_image.jpg'
@@ -13,9 +12,8 @@ export default function Company() {
   <div className="container max-w-[1320px] mx-auto px-6 py-12">
         <div className="grid md:grid-cols-3 gap-10">
 
-          {/* Левая колонка — меню */}
           <aside className="pl-6 flex">
-            <ul className=" space-y-4 text-md font-medium sticky top-20">
+            <ul className=" space-y-4 text-md font-medium">
               <li><a href="#who" className="hover:text-red-600"> <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-4 h-4 inline-block -mt-0.5"
@@ -39,10 +37,8 @@ export default function Company() {
             </ul>
           </aside>
 
-          {/* Правая часть — контент на 2 колонки */}
           <div className="md:col-span-2 space-y-16">
 
-            {/* Секция #1 */}
             <section id="who" className="space-y-6">
               <img src= {aboutImage} class="img-fluid mb-4" alt="Engineer Man" />
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">Who we are</h2>
@@ -63,7 +59,6 @@ export default function Company() {
               </p>
             </section>
 
-            {/* Секция #2 */}
             <section id="history" className="space-y-6">
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">History</h2>
 

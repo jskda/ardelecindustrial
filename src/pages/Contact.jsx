@@ -5,12 +5,9 @@ export default function Contact() {
   return (
     <>
       <Title title="Contact" image={contactImage} />
-
       <section className="w-full bg-white py-12">
         <div className="container mx-auto max-w-[1320px] px-4">
-          {/* Офисы и карты */}
           <div className="grid gap-12 lg:grid-cols-2">
-            {/* UK */}
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">
                 Corporate Headquarters
@@ -39,7 +36,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Türkiye */}
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">
                 Operations in Türkiye
@@ -68,7 +64,6 @@ export default function Contact() {
               </div>
             </div>
           </div>
-
         </div>
       </section>
     </>

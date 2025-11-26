@@ -8,12 +8,11 @@ export default function Activities() {
       <Title 
         title="Activities"
         image={activitiesImage} />
-
       <section className= "container max-w-[1320px] mx-auto">
         <div>
         <Outlet />
         </div>
-    </section>
+      </section>
     </>
   );
 }

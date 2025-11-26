@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import powerIcon from '../assets/supply.svg'
 import softwareIcon from '../assets/development.svg'
 import industrialIcon from '../assets/engineering_industrial.svg'
@@ -14,12 +15,15 @@ export default function Services() {
       <p className="text-gray-700">
         Rectifier systems used for production of hydrogen, metal extraction, refining and heat treatments are designed to operate in the most challenging operating conditions, maintaining highest efficiency. High-current busduct systems with high current switching devices.
       </p>
-      <a href="/activities/SpecialPowerSupply" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+      <Link 
+        to="/activities/SpecialPowerSupply"
+        className="inline-flex items-center mt-3 text-red-600 hover:underline"
+      >
         View More
         <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
         </svg>
-      </a>
+      </Link>
     </div>
   </div>
 
@@ -30,12 +34,15 @@ export default function Services() {
       <p className="text-gray-700">
         The digital controls systems, entirely developed by ARDELEC, grants the highest level of reliability, safety and performance. ARDELEC combine deep domain expertise with connectivity and software innovation to empower real-time, data-driven decisions for safer, smarter operations that maximize resource efficiency.
       </p>
-      <a href="/activities/SoftwareDevelopment" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+      <Link 
+        to="/activities/SoftwareDevelopment"
+        className="inline-flex items-center mt-3 text-red-600 hover:underline"
+      >
         View More
         <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
         </svg>
-      </a>
+      </Link>
     </div>
   </div>
 
@@ -46,12 +53,15 @@ export default function Services() {
       <p className="text-gray-700">
         ARDELEC delivers turn-key commercial & industrial energy storage solutions (LFP BESS) for peak shaving, demand response, PV integration, microgrids and backup power. Containerized or cabinet systems include PCS, MV equipment, EMS, HVAC and fire safety, fully engineered, commissioned and maintained to IEC/IEEE/UL standards.
       </p>
-      <a href="/activities/SoftwareDevelopment" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+      <Link 
+        to="/activities/EnergyStorage"
+        className="inline-flex items-center mt-3 text-red-600 hover:underline"
+      >
         View More
         <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
         </svg>
-      </a>
+      </Link>
     </div>
   </div>
 
@@ -62,12 +72,15 @@ export default function Services() {
       <p className="text-gray-700">
         ARDELEC offers full-cycle power generation solutions for thermal, gas-turbine, hydro, renewable and captive plants — engineering (studies, grid compliance, digital substations IEC 61850), supply of evacuation systems, diagnostics, testing, commissioning, retrofits, training and lifecycle support — all to IEC/IEEE/GOST standards.
       </p>
-      <a href="/activities/SoftwareDevelopment" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+      <Link 
+        to="/activities/PowerGeneration"
+        className="inline-flex items-center mt-3 text-red-600 hover:underline"
+      >
         View More
         <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
         </svg>
-      </a>
+      </Link>
     </div>
   </div>
 
@@ -101,12 +114,15 @@ export default function Services() {
   </div>
 </div>
 
-      <a href="/activities/EngineeringConsulting" className="inline-flex items-center mt-3 text-red-600 hover:underline">
+      <Link 
+        to="/activities/EngineeringConsulting"
+        className="inline-flex items-center mt-3 text-red-600 hover:underline"
+      >
         View More
         <svg xmlns="http://www.w3.org/2000/svg" className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
         </svg>
-      </a>
+      </Link>
     </div>
   </div>
 </div>
