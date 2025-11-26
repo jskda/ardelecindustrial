@@ -41,7 +41,7 @@ export default function ActivitiesIndex() {
   ];
 
   return (
-    <div className="container mx-auto pb-5 my-5">
+    <div className="container max-w-[1320px] mx-auto pb-5 my-5">
       <div className="flex flex-wrap -mx-3">
         {activities.map((activity) => (
           <div key={activity.url} className="w-full sm:w-1/2 md:w-1/3 px-3 mb-6">

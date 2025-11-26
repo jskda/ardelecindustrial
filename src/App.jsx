@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <main className="min-h-screen">
+      <main className='min-h-screen'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/company" element={<Company />} />

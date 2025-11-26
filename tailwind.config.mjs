@@ -22,13 +22,13 @@ export default {
       '2xl': '1320px',
     },
   },
-},
     extend: {
       colors: {
         primary: '#0056b3',
       },
       fontFamily: {
-        sans: ['Montserat', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif']
       },
     },
+  },
 }

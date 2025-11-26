@@ -1,15 +1,16 @@
 import { Outlet } from 'react-router-dom';
 import Title from '../components/Title';
+import activitiesImage from '../assets/activities.jpg'
 
 export default function Activities() {
   return (
     <>
       <Title 
         title="Activities"
-        image="activities.jpg" />
+        image={activitiesImage} />
 
-      <section className="w-full py-16">
-        <div className="container max-w-[1320px] mx-auto px-4">
+      <section className= "container max-w-[1320px] mx-auto">
+        <div>
         <Outlet />
         </div>
     </section>
