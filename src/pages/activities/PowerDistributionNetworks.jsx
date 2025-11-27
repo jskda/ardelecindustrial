@@ -1,18 +1,10 @@
-import Title from '../../components/Title';
-import activitiesImage from '../../assets/activities.webp'
 import softwareDevelopment from '../../assets/distribution-network.webp'
 
 export default function PowerDistributionNetworks() {
   return (
-    <>
-      <Title 
-        title="Activities"
-        image={activitiesImage} />
-      <section className="container max-w-[1320px] mx-auto px-6 py-8">
-            
-            <h1 className="block text-gray-600 text-sm">Engineering & Consulting</h1>
+      <section className="container max-w-[1320px] mx-auto px-6 py-6">
+            <p className="text-gray-600 text-md">Engineering & Consulting</p>
             <h1 className="text-3xl font-bold mb-8 text-gray-800">for Power Distribution Networks</h1>
-      
             <div className="grid md:grid-cols-3 gap-10 items-start">
               <div className="w-full">
                 <img 
@@ -72,6 +64,5 @@ export default function PowerDistributionNetworks() {
               </div>
             </div>
           </section>
-    </>
   );
 }

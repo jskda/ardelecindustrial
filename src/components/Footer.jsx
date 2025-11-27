@@ -3,7 +3,7 @@ import logoHorizontal from '../assets/logo_horizontal_red.svg';
 export default function Footer() {
   return (
     <footer className="bg-[#f5f5f5]">
-      <div className="container mx-auto py-12">
+      <div className="container mx-auto px=6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
 
           <div className="
@@ -20,7 +20,7 @@ export default function Footer() {
                 alt="Ardelec logotype" 
                 className="h-12 mb-4 mx-auto md:mx-0" 
               />
-              <p className="text-gray-500 text-md text-center">
+              <p className="text-gray-500 text-base text-center">
                 considering the energy
               </p>
             </div>

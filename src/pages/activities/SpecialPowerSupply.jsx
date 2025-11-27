@@ -4,18 +4,13 @@ import specialPowerSupply_3 from '../../assets/special_power_supply_3.webp'
 
 export default function SpecialPowerSupply() {
   return (
-    <section className="container max-w-[1320px] mx-auto px-6 py-4">
-      <h1 className="block text-gray-600 text-sm">ARDELEC</h1>
+    <section className="container max-w-[1320px] mx-auto px-6 py-6">
+      <p className="text-gray-600 text-md">Ardelec</p>
       <h1 className="text-3xl font-bold mb-8 text-gray-700">Special Power Supply</h1>
 
       <div className="grid md:grid-cols-3 gap-10 items-start">
-        <div className="w-full h-full">
           <img 
-            src={specialPowerSupply_1} 
-            alt="Special power supply image"
-            className="w-full h-full object-cover shadow"
-          />
-        </div>
+            src={specialPowerSupply_1} alt="Special power supply image" className="w-full h-auto rounded object-cover shadow-md"/>
         <div className="md:col-span-2 space-y-6">
           <h2 className="text-2xl font-semibold text-gray-700">
             High-Performance Industrial Rectifier Systems
@@ -26,16 +21,10 @@ export default function SpecialPowerSupply() {
         </div>
       </div>
 
-      <div className="my-4 border-t border-gray-300"></div>
+      <div className="my-6 border-t border-gray-300"></div>
 
         <div className="grid md:grid-cols-3 gap-10 items-start">
-        <div className="w-full h-full">
-          <img 
-            src={specialPowerSupply_2} 
-            alt="Special power supply image"
-            className="w-full h-full object-cover shadow"
-          />
-        </div>
+          <img src={specialPowerSupply_2} alt="Special power supply image" className="w-full h-auto rounded object-cover shadow-md"/>
         <div className="md:col-span-2 space-y-6">
           <h2 className="text-2xl font-semibold text-gray-700">
             Advanced Power Quality and Stabilization Solutions
@@ -46,16 +35,11 @@ export default function SpecialPowerSupply() {
         </div>
       </div>
 
-      <div className="my-4 border-t border-gray-300"></div>
+      <div className="my-6 border-t border-gray-300"></div>
       
       <div className="grid md:grid-cols-3 gap-10 items-start">
-        <div className="w-full h-full">
           <img 
-            src={specialPowerSupply_3} 
-            alt="Special power supply"
-            className="w-full h-full object-cover shadow"
-          />
-        </div>
+            src={specialPowerSupply_3} alt="Special power supply" className="w-full h-auto rounded object-cover shadow-md"/>
         <div className="md:col-span-2 space-y-6">
           <h2 className="text-2xl font-semibold text-gray-700">
             Digital Fiber-Optic Measurement Technologies

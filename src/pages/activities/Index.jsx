@@ -53,7 +53,7 @@ export default function ActivitiesIndex() {
                   className="w-full h-64 object-cover transition duration-300 group-hover:brightness-75"
                 />
               </NavLink>
-              <span className="block text-gray-600 text-sm mt-3">ARDELEC</span>
+              <span className="block text-gray-600 text-sm mt-3">Ardelec</span>
               <h2 className="text-gray-700 text-xl font-semibold mb-1">
                 <NavLink to={activity.url} className="text-gray-900 hover:text-[#C41230] transition no-underline">
                   {activity.label}

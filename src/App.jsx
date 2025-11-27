@@ -30,10 +30,10 @@ function App() {
             <Route path="EnergyStorage" element={<EnergyStorage />} />
             <Route path="EngineeringConsulting" element={<EngineeringConsulting />} />
             <Route path="PowerGeneration" element={<PowerGeneration />} />
+            <Route path="PowerDistributionNetworks" element={<PowerDistributionNetworks />} />
+            <Route path="IndustrialNetworks" element={<IndustrialNetworks />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
-          <Route path="/PowerDistributionNetworks" element={<PowerDistributionNetworks />} />
-          <Route path="/IndustrialNetworks" element={<IndustrialNetworks />} />
         </Routes>
       </main>
       <Footer />

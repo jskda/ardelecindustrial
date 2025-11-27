@@ -6,16 +6,21 @@ export default function SlideContent({ active, image, lines }) {
   const [show3, setShow3] = useState(false);
 
   useEffect(() => {
+    let t1, t2, t3;
     if (active) {
-      setTimeout(() => setShow1(true), 100);
-      setTimeout(() => setShow2(true), 250);
-      setTimeout(() => setShow3(true), 400);
+      t1 = setTimeout(() => setShow1(true), 100);
+      t2 = setTimeout(() => setShow2(true), 250);
+      t3 = setTimeout(() => setShow3(true), 400);
     } else {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShow1(false);
       setShow2(false);
       setShow3(false);
     }
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+      clearTimeout(t3);
+    };
   }, [active]);
 
   return (

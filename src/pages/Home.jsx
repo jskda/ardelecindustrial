@@ -8,9 +8,7 @@ export default function Home() {
     <>
       <HeroSlider />
       <About />
-      <div>
-        <Services />
-      </div>
+      <Services />
     </>
   )
 }

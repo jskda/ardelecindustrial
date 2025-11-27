@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <Title title="Contact" image={contactImage} />
       <section className="w-full bg-white py-12">
-        <div className="container mx-auto max-w-[1320px] px-4">
+        <div className="container mx-auto max-w-[1320px] px-6">
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-700">
@@ -15,11 +15,13 @@ export default function Contact() {
               <p className="text-gray-600 font-semibold">
               Ardelec Industrial Solutions Ltd
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600">
                 128, City Road, London, EC1V 2NX, UK
               </p>
+              <p className="text-gray-600">
+                Tel: +44 203 693 3963
+                </p>
               <p className="text-gray-600 mb-4">
-                Tel: +44 203 693 3963<br />
                 info@ardelecindustrial.com
               </p>
               <div className="w-full h-[350px] md:h-[450px]">
@@ -43,11 +45,13 @@ export default function Contact() {
               <p className="text-gray-600 font-semibold">
               Meta FX Global Software and Trade Ltd
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600">
                 Esentepe Mah., Keskin Kalem Sokak, Arya Plaza No:17, İç Kapı No:2, Şişli, Istanbul
               </p>
+              <p className="text-gray-600">
+                Tel: +90 535 379 5318
+                </p>
               <p className="text-gray-600 mb-4">
-                Tel: +90 535 379 5318<br />
                 info@ardelecindustrial.com
               </p>
               <div className="w-full h-[350px] md:h-[450px]">

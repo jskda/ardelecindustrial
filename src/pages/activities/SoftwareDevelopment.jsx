@@ -2,9 +2,9 @@ import softwareDevelopment from '../../assets/software_development_cover.webp'
 
 export default function SoftwareDevelopment() {
   return (
-    <section className="container max-w-[1320px] mx-auto px-6 py-4">
+    <section className="container max-w-[1320px] mx-auto px-6 py-6">
       
-      <h1 className="block text-gray-600 text-sm">ARDELEC</h1>
+      <p className="text-gray-600 text-md">Ardelec</p>
       <h1 className="text-3xl font-bold mb-8 text-gray-700">Software Development</h1>
 
       <div className="grid md:grid-cols-3 gap-10 items-start">
