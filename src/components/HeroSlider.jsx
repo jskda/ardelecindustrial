@@ -1,4 +1,3 @@
-// HeroSlider.js
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -37,7 +36,13 @@ export default function HeroSlider() {
       pagination={{ clickable: true }}
       autoplay={{ delay: 5000, disableOnInteraction: false }}
       loop
-      className="h-[750px] md:h-[750px] sm:h-[420px]"
+      className="
+  h-100
+  sm:h-120
+  md:h-150
+  lg:h-180
+  xl:h-200
+"
       onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
     >
       {slides.map((slide, idx) => (
