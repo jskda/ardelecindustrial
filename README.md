@@ -1,4 +1,4 @@
-# Ardelec Industrial — Corporate Website ✨
+# Ardelec Industrial — Corporate Website
 
 [![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -9,7 +9,6 @@
 > A modern, responsive corporate website for **Ardelec Industrial Solutions**, rebuilt from legacy Bootstrap/jQuery using **React 19**, **Tailwind CSS v4**, **React Router**, and **Swiper.js**.  
 > Features modular components, unified spacing system, adaptive typography, and optimized WebP assets for superior performance.
 
----
 
 ## 📋 Features
 
@@ -23,7 +22,6 @@
 - **⚙️ Optimized Assets** — WebP images, lazy loading ready
 - **🔗 Clean Routing** — React Router v6 with nested `/activities/*` routes
 
----
 
 ## 🛠 Tech Stack
 
@@ -36,7 +34,6 @@
 | **Build** | [Vite](https://vitejs.dev/) | latest | Fast dev/build |
 | **Assets** | WebP | Optimized | Image performance |
 
----
 
 ## 🚀 Getting Started
 
@@ -45,20 +42,19 @@
 - npm or pnpm
 
 ### Installation
-Clone & install
-git clone <jskda/ardelecindustrial.git>
-cd ardelec-website
-npm install
+#### Clone & install
+- git clone [jskda/ardelecindustrial.git](https://github.com/jskda/ardelecindustrial.git)
+- cd ardelec-website
+- npm install
 
-Development server
+#### Development server
 npm run dev
 
-Build for production
+#### Build for production
 npm run build
 
 **Output:** `dist/` — Deploy anywhere!
 
----
 
 ## 📦 Deployment
 
@@ -72,7 +68,6 @@ npm run build
 | GitHub Pages | `gh-pages -d dist` | [pages.github.com](https://pages.github.com) |
 | Cloudflare | `wrangler pages publish dist/` | [pages.cloudflare.com](https://pages.cloudflare.com) |
 
----
 
 ## 🎨 Customization
 
@@ -81,16 +76,14 @@ npm run build
 3. **Content** — Update `pages/*.jsx`
 4. **Menu** — Modify `MainMenu.jsx` items
 
----
 
 ## 🔧 Development Scripts
 
-npm run dev # → http://localhost:5173
-npm run build # → dist/
-npm run preview # → Preview production build
-npm run lint # → ESLint check
+- npm run dev # → http://localhost:5173
+- npm run build # → dist/
+- npm run preview # → Preview production build
+- npm run lint # → ESLint check
 
----
 
 ## 🤝 Contributing
 
@@ -102,7 +95,6 @@ npm run lint # → ESLint check
 > [!IMPORTANT]  
 > External PRs welcome for documentation & performance improvements!
 
----
 
 ## 📄 License
 
@@ -110,7 +102,6 @@ Proprietary - Ardelec Industrial Solutions Ltd
 Company Registration: 14794597
 See LICENSE for details
 
----
 
 ## 🙌 Acknowledgments
 
@@ -119,7 +110,6 @@ See LICENSE for details
 - [React Spring](https://react-spring.dev/) — Smooth animations
 - Original design inspiration: [ardelecindustrial.com](mailto:info@ardelecindustrial.com)
 
----
 
 <div align="center">
 
