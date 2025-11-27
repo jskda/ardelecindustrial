@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import distributionNetwork from '../../assets/distribution-network.jpg'
-import industrialNetwork from '../../assets/industrial-network.jpg'
+import distributionNetwork from '../../assets/distribution-network.webp'
+import industrialNetwork from '../../assets/industrial-network.webp'
 
 export default function EngineeringConsulting() {
   const items = [

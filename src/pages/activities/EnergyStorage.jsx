@@ -1,4 +1,4 @@
-import energyStorage from '../../assets/commercial-industrial-thumb.jpg'
+import energyStorage from '../../assets/energy_storage_cover.webp'
 
 export default function EnergyStorage() {
   return (
@@ -11,7 +11,7 @@ export default function EnergyStorage() {
         <div className="w-full">
           <img 
             src={energyStorage} 
-            alt="Software Development image"
+            alt="Software Development"
             className="w-full h-full object-cover shadow"
           />
         </div>

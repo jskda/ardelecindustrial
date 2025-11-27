@@ -1,6 +1,6 @@
 import Title from '../../components/Title';
-import activitiesImage from '../../assets/activities.jpg'
-import softwareDevelopment from '../../assets/distribution-network.jpg'
+import activitiesImage from '../../assets/activities.webp'
+import softwareDevelopment from '../../assets/distribution-network.webp'
 
 export default function PowerDistributionNetworks() {
   return (
@@ -17,7 +17,7 @@ export default function PowerDistributionNetworks() {
               <div className="w-full">
                 <img 
                   src={softwareDevelopment} 
-                  alt="Software Development image"
+                  alt="Software Development"
                   className="w-full h-full object-cover shadow"
                 />
               </div>

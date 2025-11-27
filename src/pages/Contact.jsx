@@ -1,5 +1,5 @@
 import Title from '../components/Title'
-import contactImage from '../assets/contact.jpg'
+import contactImage from '../assets/contact.webp'
 
 export default function Contact() {
   return (

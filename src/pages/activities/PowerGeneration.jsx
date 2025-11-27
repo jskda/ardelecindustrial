@@ -1,4 +1,4 @@
-import powerGeneration from '../../assets/power_generation_cover.jpg'
+import powerGeneration from '../../assets/power_generation_cover.webp'
 
 export default function PowerGeneration() {
   return (
@@ -11,7 +11,7 @@ export default function PowerGeneration() {
         <div className="w-full">
           <img 
             src={powerGeneration} 
-            alt="Software Development image"
+            alt="Software Development"
             className="w-full h-full object-cover shadow"
           />
         </div>

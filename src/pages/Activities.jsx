@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Title from '../components/Title';
-import activitiesImage from '../assets/activities.jpg'
+import activitiesImage from '../assets/activities.webp'
 
 export default function Activities() {
   return (

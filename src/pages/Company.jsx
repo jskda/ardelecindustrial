@@ -1,6 +1,6 @@
 import Title from '../components/Title';
-import companyImage from '../assets/company.jpg'
-import aboutImage from '../assets/about_image.jpg'
+import companyImage from '../assets/company.webp'
+import aboutImage from '../assets/about_image.webp'
 
 export default function Company() {
   return (
@@ -39,7 +39,7 @@ export default function Company() {
 
           <div className="md:col-span-2 space-y-16">
             <section id="who" className="space-y-6">
-              <img src= {aboutImage} class="img-fluid mb-4" alt="Engineer Man" />
+              <img src= {aboutImage} className="img-fluid mb-4" alt="Power lines at sunset" />
               <h2 className="text-2xl font-semibold mb-4 mt-8 text-gray-700">Who we are</h2>
               <p className="font-semibold text-gray-600 leading-relaxed">
                 Ardelec creates maximum value for partners through engineering, design, manufacturing 

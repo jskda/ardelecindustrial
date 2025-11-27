@@ -6,9 +6,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import SlideContent from "./SlideContent";
 
-import img_1 from "../assets/slide_1.jpg";
-import img_2 from "../assets/slide_2.jpg";
-import img_3 from "../assets/slide_3.jpg";
+import img_1 from "../assets/slide_1.webp";
+import img_2 from "../assets/slide_2.webp";
+import img_3 from "../assets/slide_3.webp";
 
 import { useState } from "react";
 

@@ -1,6 +1,6 @@
-import specialPowerSupply_1 from '../../assets/special_power_supply_1.jpg'
-import specialPowerSupply_2 from '../../assets/special_power_supply_2.jpg'
-import specialPowerSupply_3 from '../../assets/special_power_supply_3.jpg'
+import specialPowerSupply_1 from '../../assets/special_power_supply_1.webp'
+import specialPowerSupply_2 from '../../assets/special_power_supply_2.webp'
+import specialPowerSupply_3 from '../../assets/special_power_supply_3.webp'
 
 export default function SpecialPowerSupply() {
   return (
@@ -52,7 +52,7 @@ export default function SpecialPowerSupply() {
         <div className="w-full h-full">
           <img 
             src={specialPowerSupply_3} 
-            alt="Special power supply image"
+            alt="Special power supply"
             className="w-full h-full object-cover shadow"
           />
         </div>

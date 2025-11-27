@@ -1,4 +1,4 @@
-import softwareDevelopment from '../../assets/software_development_cover.jpg'
+import softwareDevelopment from '../../assets/software_development_cover.webp'
 
 export default function SoftwareDevelopment() {
   return (
@@ -11,7 +11,7 @@ export default function SoftwareDevelopment() {
         <div className="w-full h-full">
           <img 
             src={softwareDevelopment} 
-            alt="Software Development image"
+            alt="Software Development"
             className="w-full h-full object-cover shadow"
           />
         </div>

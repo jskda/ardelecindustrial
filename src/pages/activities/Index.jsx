@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 
-import specialPowerSupply from '../../assets/special_power_supply_cover.jpg';
-import softwareDev from '../../assets/software_development_cover.jpg';
-import engineering from '../../assets/engineering_consulting_cover.jpg';
-import powerGen from '../../assets/power_generation_cover.jpg';
-import energyStorage from '../../assets/energy_storage_cover.jpg';
+import specialPowerSupply from '../../assets/special_power_supply_cover.webp';
+import softwareDev from '../../assets/software_development_cover.webp';
+import engineering from '../../assets/engineering_consulting_cover.webp';
+import powerGen from '../../assets/power_generation_cover.webp';
+import energyStorage from '../../assets/energy_storage_cover.webp';
 
 export default function ActivitiesIndex() {
   const activities = [
