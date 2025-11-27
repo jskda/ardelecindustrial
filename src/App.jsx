@@ -9,6 +9,8 @@ import SoftwareDevelopment from './pages/activities/SoftwareDevelopment';
 import EnergyStorage from './pages/activities/EnergyStorage';
 import EngineeringConsulting from './pages/activities/EngineeringConsulting'
 import PowerGeneration from './pages/activities/PowerGeneration'
+import PowerDistributionNetworks from './pages/activities/PowerDistributionNetworks'
+import IndustrialNetworks from './pages/activities/IndustrialNetworks'
 import Contact from './pages/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -30,6 +32,8 @@ function App() {
             <Route path="PowerGeneration" element={<PowerGeneration />} />
           </Route>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/PowerDistributionNetworks" element={<PowerDistributionNetworks />} />
+          <Route path="/IndustrialNetworks" element={<IndustrialNetworks />} />
         </Routes>
       </main>
       <Footer />
